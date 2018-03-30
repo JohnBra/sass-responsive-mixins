@@ -1,0 +1,20 @@
+@import '../styles/responsive';
+
+body {
+  margin: 0;
+  background: #333333;
+}
+.content-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__headline {
+    font-family: arial, sans-serif;
+    color: #22BAD9;
+    @include display-res(xs) { font-size: 2.7em; }
+    @include display-res(sm) { font-size: 3em; }
+    @include display-res(md) { font-size: 3.5em; }
+    @include display-res(lg xl) { font-size: 5em; }
+  }
+}

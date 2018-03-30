@@ -1,0 +1,47 @@
+/* Breakpoint declaration */
+/* Mobile */
+/* Tablet / iPad Portrait */
+/* Computer / Desktop / iPad Landscape */
+/* Large Monitor */
+/* Widescreen Monitor */
+/* Use multiple resolutions at once */
+body {
+  margin: 0;
+  background: #333333;
+}
+
+.content-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-wrapper__headline {
+  font-family: arial, sans-serif;
+  color: #22BAD9;
+}
+@media only screen and (max-width: 767px) {
+  .content-wrapper__headline {
+    font-size: 2.7em;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .content-wrapper__headline {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .content-wrapper__headline {
+    font-size: 3.5em;
+  }
+}
+@media only screen and (min-width: 1199px) and (max-width: 1919px) {
+  .content-wrapper__headline {
+    font-size: 5em;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .content-wrapper__headline {
+    font-size: 5em;
+  }
+}
