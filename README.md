@@ -36,4 +36,4 @@ This is a simple collection of mixins with variable breakpoints for media querie
 
 ## Contributors
 
-* [Bronathan Janaart](https://github.com/JohnBra/) Jonathan Braat - creator, maintainer.
+* [Bronathan](https://github.com/JohnBra/) Jonathan Braat - creator, maintainer.
