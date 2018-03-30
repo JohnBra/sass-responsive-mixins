@@ -11,7 +11,7 @@ This is a simple collection of mixins with variable breakpoints for media querie
 
 ## Code and Demo
 
-* Checkout the [Demo](https://www.google.com) here.
+* Checkout the [Demo](https://johnbra.github.io/sass-responsive-mixins/) here.
 * Checkout the [Code](https://github.com/JohnBra/sass-responsive-mixins/blob/master/src/styles/_responsive.scss) here.
 
 ## Usage
