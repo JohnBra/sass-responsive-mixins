@@ -5,14 +5,12 @@ $break-md: 1199px;  // Computer / Desktop / iPad Landscape
 $break-lg: 1919px;  // Large Monitor
 $break-xl: 1920px;  // Widescreen Monitor
 
-
 /* Mobile */
 @mixin xs {
   @media only screen and (max-width: $break-xs) {
     @content;
   }
 }
-
 /* Tablet / iPad Portrait */
 @mixin sm {
   @media only screen and (min-width: $break-xs) and (max-width: $break-sm) {
