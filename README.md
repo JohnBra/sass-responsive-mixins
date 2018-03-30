@@ -25,13 +25,15 @@ This is a simple collection of mixins with variable breakpoints for media querie
 * include the ``mixins`` in your elements like so:
 ```scss
 .some-element{
+    /* use single display resolutions */
     @include display-res(xs) { font-size: 2.7em }
     @include display-res(sm) { font-size: 3em; }
     @include display-res(md) { font-size: 3.5em; }
+    /* or use multiple resolutions at once */
     @include display-res(lg xl) { font-size: 5em; }
 }
 ```
 
 ## Contributors
 
-* [Bronathan Janaart](https://github.com/JohnBra/) Jonathan Braat - creator, maintainer
+* [Bronathan Janaart](https://github.com/JohnBra/) Jonathan Braat - creator, maintainer.
