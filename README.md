@@ -1,6 +1,6 @@
 # sass-responsive-mixins
 
-This is a simple collection of mixins with variable breakpoints for media queries, optimally packed in a sass partial imported into your s.
+This is a simple collection of mixins with variable breakpoints for media queries, optimally packed in a sass partial imported into your stylesheets.
 
 ## Why?
 
@@ -12,7 +12,7 @@ This is a simple collection of mixins with variable breakpoints for media querie
 ## Code and Demo
 
 * Checkout the [Demo](https://www.google.com) here.
-* Checkout the [Code](https://www.google.com) here.
+* Checkout the [Code](https://github.com/JohnBra/sass-responsive-mixins/blob/master/src/styles/_responsive.scss) here.
 
 ## Usage
 
@@ -33,3 +33,5 @@ This is a simple collection of mixins with variable breakpoints for media querie
 ```
 
 ## Contributors
+
+* [Bronathan Janaart](https://github.com/JohnBra/) Jonathan Braat - creator, maintainer
